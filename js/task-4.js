@@ -1,17 +1,17 @@
 function getShippingCost(country) {
-  let prise;
+  let price;
   switch (country) {
     case 'China':
-      prise = 100;
+      price = 100;
       break;
     case 'Chile':
-      prise = 250;
+      price = 250;
       break;
     case 'Australia':
-      prise = 170;
+      price = 170;
       break;
     case 'Jamaica':
-      prise = 120;
+      price = 120;
       break;
     default:
       return 'Sorry, there is no delivery to your country';
